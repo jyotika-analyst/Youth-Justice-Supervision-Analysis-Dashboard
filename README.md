@@ -6,7 +6,7 @@
 
 ## 🔗 Live Interactive Dashboard
 
-[![Open Dashboard]((https://app.powerbi.com/view?r=eyJrIjoiODUyZWMwYWYtMGJkNC00OGE2LWIwN2MtNjVmODA4YWY0YzFmIiwidCI6ImZjZjAyZDc5LTE4NGQtNDA4Yy05NTI4LWZjZTMzMzc1YWIzZSJ9))
+[![Open Dashboard](https://img.shields.io/badge/Power%20BI-Open%20Dashboard-1B3F6E?style=for-the-badge&logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiODUyZWMwYWYtMGJkNC00OGE2LWIwN2MtNjVmODA4YWY0YzFmIiwidCI6ImZjZjAyZDc5LTE4NGQtNDA4Yy05NTI4LWZjZTMzMzc1YWIzZSJ9)
 
 ---
 
