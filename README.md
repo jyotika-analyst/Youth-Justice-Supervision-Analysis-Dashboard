@@ -119,10 +119,10 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 ## 🖼️ Dashboard Screenshots
 
 ### All Supervision
-![All Supervision Dashboard](all_screenshot.png)
+![All Supervision Dashboard](All_screenshot.png)
 
 ### Community Supervision
-![Community Supervision Dashboard](community_screenshot.png)
+![Community Supervision Dashboard](Community_screenshot.png)
 
 ### Detention
 ![Detention Dashboard](detention_screenshot.png)
