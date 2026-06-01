@@ -119,13 +119,13 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 ## 🖼️ Dashboard Screenshots
 
 ### All Supervision
-![All Supervision Dashboard](screenshots/all_supervision.png)
+![All Supervision Dashboard](screenshots/all_screenshot.png)
 
 ### Community Supervision
-![Community Supervision Dashboard](screenshots/community_supervision.png)
+![Community Supervision Dashboard](screenshots/community_screenshot.png)
 
 ### Detention
-![Detention Dashboard](screenshots/detention.png)
+![Detention Dashboard](screenshots/detention_screenshot.png)
 
 ### Age Group Analysis (Drillthrough)
 ![Age Group Analysis](screenshots/age_group_analysis.png)
@@ -137,8 +137,6 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 - Data reflects average daily counts — not unique individuals — a young person may be counted across multiple supervision types
 - Community-based and detention counts do not sum to total supervision (AIHW Note 2)
 - Age data not comparable with AIHW releases prior to 2019–20 (AIHW Note 3)
-- Linear regression forecast assumes continuation of the 5-year trend — the 2024–25 detention reversal suggests actual demand may exceed the forecast point estimate
-- Detention R² = 0.336 — weak linear fit due to non-linear pattern of decline followed by sharp reversal — detention forecast should be interpreted with particular caution
 - Victoria raised the minimum age of criminal responsibility from 10 to 12 in September 2025 — future data may reflect structural changes in who enters the youth justice system
 
 ---
