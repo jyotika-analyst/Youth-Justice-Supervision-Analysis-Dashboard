@@ -128,7 +128,7 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 ![Detention Dashboard](detention_screenshot.png)
 
 ### Age Group Analysis (Drillthrough)
-![Age Group Analysis](age_group_analysis.png)
+![Age Group Analysis](Findings.png)
 
 ---
 
