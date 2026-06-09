@@ -37,7 +37,7 @@ The objective was to examine how youth justice supervision levels have changed o
 **Variables analysed:**
 - Year
 - Supervision type (All Supervision · Community Supervision · Detention)
-- Age (individual ages 10–18 · grouped 10–17 · 14–17 · 10–13)
+- Age (individual ages 10–18 · grouped 10–17 · 14–17 · 10–13 · Total)
 - Sex (Male · Female · Total)
 - Indigenous status (First Nations · Non-Indigenous · Not stated · Total)
 - Average daily counts
@@ -49,7 +49,7 @@ The objective was to examine how youth justice supervision levels have changed o
 | Tool | Purpose |
 |---|---|
 | **SQL (SQLite)** | Data querying · trend analysis · demographic breakdowns |
-| **Power BI Desktop** | Interactive dashboard · DAX measures · forecasting |
+| **Power BI Desktop** | Interactive dashboard · DAX measures|
 | **Power Query** | Data transformation · unpivoting · cleaning |
 | **Microsoft Excel** | Initial data exploration · validation |
 
