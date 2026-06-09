@@ -1,6 +1,6 @@
 # Youth-Justice-Supervision-Analysis-Dashboard
 
-> Analysing five years of youth justice supervision data in Victoria using SQL, Power BI and Power Query to identify trends, emerging patterns and forecast future supervision demands.
+> How have youth justice supervision levels in Victoria changed over the past five years across supervision types and demographic groups?
 
 ---
 
@@ -20,7 +20,7 @@ The objective was to examine how youth justice supervision levels have changed o
 
 ## ❓ Business Question
 
-> **What trends and emerging patterns can be identified in youth justice supervision levels in Victoria over the past five years, and what may these trends indicate about future supervision demands?**
+> **How have youth justice supervision levels in Victoria changed over the past five years across supervision types and demographic groups?**
 
 ---
 
@@ -86,7 +86,6 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 
 - **Year-on-year change** — percentage change between consecutive years
 - **Five-year trend** — overall change 2020–21 to 2024–25
-- **Linear regression forecast** — forecast 2025–26 with 95% confidence interval
 - **Demographic proportions** — First Nations share · sex share · age group share over time
 
 ---
@@ -95,23 +94,22 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 
 - Overall youth justice supervision declined from **845.8 to 545.0** average daily supervised young people between 2020–21 and 2024–25 **(−35.6%)**
 - **Community supervision** declined by **39.0%** over the same period — continuing to decline in 2024–25
-- **Detention** declined overall by **21.3%** but increased sharply by **38.1%** between 2023–24 and 2024–25 — the most significant emerging risk for future supervision demand
-- Young people **aged 10–17** drove the 2024–25 uptick — rising from 268.2 to 299.9 (+11.8%) while age 18 continued declining
+- detention increased sharply by 38.1% between 2023–24 and 2024–25, indicating a recent shift in supervision patterns after several years of decline.
+- In 2024–25, supervision among young people aged 10–17 increased from 268.2 to 299.9 (+11.8%), while supervision among age 18 young people continued to decline.
 - **Males** represented substantially higher supervision levels than females — male proportion rose from 85.0% to 90.4% over 5 years
-- **First Nations** young people experienced consistently higher supervision levels — their proportion of total supervision rose from 14.7% to 17.8% despite overall numbers declining — a persistent and worsening disparity
-- **Forecast 2025–26:** 401.1 average daily supervised young people (95% CI: 131–671) based on linear regression — wide interval reflects small sample size (n=5 years)
+- **First Nations young people experienced consistently higher supervision levels, with their proportion of total supervision increasing from 14.7% to 17.8% over the five-year period.
 
 ---
 
 ## 📈 Dashboard Features
 
 - **Supervision type slicer** — toggle between All Supervision · Community Supervision · Detention — all visuals update dynamically
-- **4 KPI cards** — average daily supervised · 5-year overall change · YoY change · forecast 2025–26
-- **Supervision trend line chart** — five-year trend with linear forecast (dashed) and 95% confidence interval (shaded band)
+- **3 KPI cards** — average daily supervised · 5-year overall change · YoY change 
+- **Supervision trend line chart** — five-year trend 
 - **Sex breakdown bar chart** — Male vs Female average daily counts by year
 - **Indigenous status bar chart** — First Nations vs Non-Indigenous average daily counts by year
 - **Age group bar chart** — Age 10–17 vs Age 18 average daily counts by year
-- **Drillthrough page** — Age Group Analysis with detailed 10–17 vs 18 breakdown and policy context
+- **Drillthrough page** — Age Group Analysis with detailed 10–17 vs 18 breakdown 
 
 ---
 
@@ -133,11 +131,11 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 
 ## ⚠️ Limitations
 
-- Data reflects average daily counts — not unique individuals — a young person may be counted across multiple supervision types
-- Community-based and detention counts do not sum to total supervision (AIHW Note 2)
-- Age data not comparable with AIHW releases prior to 2019–20 (AIHW Note 3)
+- Aggregated rather than individual-level data.
+- Use of Average Daily Counts instead of unique individuals.
+- Descriptive analysis that identifies trends but cannot explain causes.
 - Victoria raised the minimum age of criminal responsibility from 10 to 12 in September 2025 — future data may reflect structural changes in who enters the youth justice system
 
 ---
 
-## 📁 Repository Contents
+
