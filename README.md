@@ -51,7 +51,6 @@ The objective was to examine how youth justice supervision levels have changed o
 | **SQL (SQLite)** | Data querying · trend analysis · demographic breakdowns |
 | **Power BI Desktop** | Interactive dashboard · DAX measures|
 | **Power Query** | Data transformation · unpivoting · cleaning |
-| **Microsoft Excel** | Initial data exploration · validation |
 
 ---
 
