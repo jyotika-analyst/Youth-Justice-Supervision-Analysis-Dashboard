@@ -75,10 +75,10 @@ Data preparation steps performed in Power Query:
 
 | Query | Purpose |
 |---|---|
-| Overall trend | SELECT Year · Supervision type · Avg_daily_counts WHERE Age = All_Ages AND Sex = Total AND Indigenous_status = Total |
+| Overall trend | SELECT Year,Supervision type,Avg_daily_counts WHERE Age = All_Ages AND Sex = Total AND Indigenous_status = Total |
 | Sex-based analysis | PIVOT on Sex using CASE WHEN · WHERE Age = All_Ages AND Indigenous_status = Total |
 | Indigenous status analysis | PIVOT on Indigenous_status using CASE WHEN · WHERE Age = All_Ages AND Sex = Total |
-| Age-based analysis | SELECT Year · Supervision_type · Age · Avg_daily_counts WHERE Sex = Total AND Indigenous_status = Total |
+| Age-based analysis | SELECT Year,Supervision_type,Age,Avg_daily_counts WHERE Sex = Total AND Indigenous_status = Total |
 
 All SQL query results verified against source CSV — **195/195 rows matched**.
 
