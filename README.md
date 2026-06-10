@@ -30,7 +30,7 @@ The objective was to examine how youth justice supervision levels have changed o
 |---|---|
 | **Source** | Australian Institute of Health and Welfare (AIHW) — Youth Justice in Australia 2024–25 |
 | **Table** | Table S128 — Victoria |
-| **Records** | 2,340 records after data transformation and unpivoting |
+| **Records** | 2,340 records after data transformation,cleaning and unpivoting |
 | **Reporting period** | 2020–21 to 2024–25 |
 | **Measure** | Average daily counts |
 
@@ -86,18 +86,18 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 
 - **Year-on-year change** — percentage change between consecutive years
 - **Five-year trend** — overall change 2020–21 to 2024–25
-- **Demographic proportions** — First Nations share · sex share · age group share over time
+- **Demographic shares of average daily supervision** — First Nations share · sex share · age group share over time
 
 ---
 
 ## 📊 Key Findings
 
-- Overall youth justice supervision declined from **845.8 to 545.0** average daily supervised young people between 2020–21 and 2024–25 **(−35.6%)**
-- **Community supervision** declined by **39.0%** over the same period — continuing to decline in 2024–25
-- detention increased sharply by 38.1% between 2023–24 and 2024–25, indicating a recent shift in supervision patterns after several years of decline.
-- In 2024–25, supervision among young people aged 10–17 increased from 268.2 to 299.9 (+11.8%), while supervision among age 18 young people continued to decline.
-- **Males** represented substantially higher supervision levels than females — male proportion rose from 85.0% to 90.4% over 5 years
-- **First Nations young people experienced consistently higher supervision levels, with their proportion of total supervision increasing from 14.7% to 17.8% over the five-year period.
+- Overall youth justice supervision declined from **845.8 to 545.0** average daily supervised young people between **2020–21 and 2024–25 (−35.6%)**.
+- Community supervision declined by **39.0%** over the same period and continued to decrease in **2024–25**.
+- Detention increased sharply by **38.1%** between **2023–24 and 2024–25**, indicating a recent shift in supervision patterns after several years of decline.
+- In **2024–25**, supervision among young people **aged 10–17** increased from **268.2 to 299.9 (+11.8%)**, while supervision among 18-year-olds continued to decline.
+- Males consistently accounted for the majority of average daily supervision, with their share of average daily supervision increasing from **85.0% to 90.4%** over the five-year period.
+- First Nations young people experienced consistently higher supervision levels, with their share of average daily supervision increasing from **14.7% to 17.8%** over the five-year period, indicating a persistent over-representation within the youth justice system.
 
 ---
 
