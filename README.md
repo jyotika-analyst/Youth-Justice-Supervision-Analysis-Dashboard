@@ -18,6 +18,18 @@ The objective was to examine how youth justice supervision levels have changed o
 
 ---
 
+## Key Skills Demonstrated
+- SQL (SQLite) Data Analysis
+- Data Cleaning & Transformation (Power Query)
+- Power BI Dashboard Development
+- DAX Measures & KPI Reporting
+- Time-Series Trend Analysis
+- Demographic Data Analysis (Age, Sex, Indigenous Status)
+- Data Visualisation & Storytelling
+- Public Policy / Youth Justice Data Interpretation
+
+---
+
 ## ❓ Business Question
 
 > **How have youth justice supervision levels in Victoria changed over the past five years across supervision types and demographic groups?**
