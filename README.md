@@ -145,8 +145,8 @@ All SQL query results verified against source CSV — **195/195 rows matched**.
 
 - Aggregated rather than individual-level data.
 - Use of Average Daily Counts instead of unique individuals.
-- Descriptive analysis that identifies trends but cannot explain causes.
-- Victoria raised the minimum age of criminal responsibility from 10 to 12 in September 2025 — future data may reflect structural changes in who enters the youth justice system
+- Findings are descriptive in nature, identifying patterns and trends but not establishing causal relationships.
+- Analysis is limited to the 2020–21 to 2024–25 reporting period, restricting long-term historical comparison.
 
 ---
 
